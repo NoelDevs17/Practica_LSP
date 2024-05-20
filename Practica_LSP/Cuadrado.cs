@@ -11,11 +11,11 @@ namespace Practica_LSP
             this.lado = lado;
         }
 
-        public override double CalcularArea()
+        public override double CalcularAreaBase()
         {
-            // area incorrecta, devuelve el area de un rectangulo
-            return lado * lado;
+            return lado * lado; // Área correcta de un cuadrado
         }
     }
+
 
 }
